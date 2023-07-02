@@ -2,6 +2,13 @@
     padding: 0px;
     margin: 0px;
 }
+
+
+body{
+    background-color: #fcfcfc;
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Poppins', sans-serif;
+}
 #mouse-circle {
     z-index: 999;
     position: fixed;
@@ -31,4 +38,66 @@
 .topheader_list_item{
     color: rgb(246, 246, 246);
     list-style-type: none;
+}
+
+.title{
+    margin-top: 70px;
+    margin-left: 10%;
+}
+
+#main_title{
+    font-size: 60px;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Poppins', sans-serif;
+    color: #314C5F;
+}
+#fromyou{
+    font-family: 'DM Serif Display', serif;
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: #2696E8;
+}
+
+#Contact-button{
+    padding: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: transparent;
+    border-radius: 40px;
+    border: #2696E8 solid 1px;
+    cursor:default;
+    color: #2696E8;
+    font-size: smaller;
+}
+
+.upper-container{
+    background-color: rgb(246, 246, 246);
+    display: flex;
+    padding: 30px;
+    position: sticky;
+    top: 0;
+}
+
+.logo-title-list-items{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+.item_contaier{
+    margin-left: 14%;
+}
+
+#get_in_touch_button{
+    margin-left: 14%;
+    cursor: pointer;
+    color: black;
+    padding: 10px;
+    background-color: #aad9fa;
+    border: none;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 40px;
 }
