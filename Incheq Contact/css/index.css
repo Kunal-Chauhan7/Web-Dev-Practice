@@ -82,7 +82,7 @@ body{
 
 .logo-title-list-items{
     display: flex;
-    gap: 40px;
+    gap: 20px;
     list-style: none;
 }
 .item_contaier{
@@ -100,4 +100,48 @@ body{
     padding-left: 30px;
     padding-right: 30px;
     border-radius: 40px;
+}
+
+.titlelistitem:hover{
+    transition: ease-in-out 0.1s;
+    text-decoration: underline #aad9fa 3px;
+}
+
+.main_section{
+    display: flex;
+    gap: 40px;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.background_image{
+    background-color: #314c5f;
+    color: white;
+    width: 40px;
+    height: 40px;
+}
+.contact_info{
+    display: flex;
+}
+
+.contact_info a{
+    margin-left: 10px;
+}
+
+.contact_info img{
+    border-radius: 6px;
+}
+
+.form{
+    background-color: white;
+    height: 500px;
+    width: 700px;
+    border-radius: 30px;
+}
+
+.form input{
+    border: none;
+}
+
+.form select{
+    border: none;
 }
