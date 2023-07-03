@@ -57,11 +57,11 @@
         </div>
         <div class="form">
             <form>
-                <input type="text" name="" id="" required placeholder="First name">
-                <input type="text" name="" id="" required placeholder="Last name">
+                <input type="text" name="" id="" required placeholder="First name" class="form_content_left form_content">
+                <input type="text" name="" id="" required placeholder="Last name" class="form_content_right form_content">
                 <br>
-                <input type="text" name="" id="" required placeholder="Company">
-                <select name="Company" id="Company">
+                <input type="text" name="" id="" required placeholder="Company" class="form_content_left form_content">
+                <select name="Company" id="Company" class="form_content_right form_content">
                     <option value="">Company Size</option>
                     <option value="">Less than 100 employess</option>
                     <option value="">100-999 employess</option>
@@ -69,37 +69,64 @@
                     <option value="">2000+ employess</option>
                 </select>
                 <br>
+                <input type="text" name="" id="" required placeholder="Phone number" class="form_content_left form_content">
+                <input type="email" name="" id="" required placeholder="Email" class="form_content_right form_content">
+                <br>
                 <br>
                 <h6>How can we help?</h6>
+                <br>    
+                <div class="grid-container">
+                    <input type="checkbox">
+                    <span class = "span_text">Understanding Psychosocial Risks</span>
+                    <input type="checkbox">
+                    <span class = "span_text">Learn more about workshops or seminars</span>
+                    <input type="checkbox">
+                    <span class = "span_text">Creating a Psychologically Safe Workforce</span>
+                    <input type="checkbox">
+                    <span class = "span_text">General Inquiry</span>
+                    <input type="checkbox">
+                    <span class = "span_text">Request a demo</span>
+                    <input type="checkbox">
+                    <span class = "span_text">Purchase our Software</span>
+                    <input type="checkbox">
+                    <span class = "span_text">Learn more about our Services</span>
+                    <input type="checkbox">
+                    <span class = "span_text">Other</span>
+                </div>
                 <br>
-                <input type="text" name="" id="" required placeholder="Phone number">
-                <input type="email" name="" id="" required placeholder="Email">
+                <h4>Message</h6>
+                <textarea name="" id=""rows="1" class="textarea"></textarea>
                 <br>
-                <input type="checkbox">
-                Understanding Psychosocial Risks
-                <input type="checkbox">
-                Learn more about workshops or seminars
-                <br>
-                <input type="checkbox">
-                Creating a Psychologically Safe Workforce
-                <input type="checkbox">
-                General Inquiry
-                <br>
-                <input type="checkbox">
-                Request a demo
-                <input type="checkbox">
-                Purchase our Software
-                <br>
-                <input type="checkbox">
-                Learn more about our Services
-                <input type="checkbox">
-                Other
-                <br>
-                <h6>Message</h6>
-                <input type="text">
-                <br>
-                <button type="submit">Submit</button>
+                <button type="submit" class="submitbtn">Submit</button>
             </form>
+        </div>
+    </div>
+    <div class="second_main_section">
+        <button class="btn_office">OUR OFFICES</button>
+        <div class="find_us_container">
+            <div>
+                <span class="find_us_heading">Where to </span>
+                <span class="find_us_two">find us:</span>
+            </div>
+            <button class="contact_us">CONTACT US</button>
+        </div>
+    </div>
+    <div class="bottom_images">
+        <div class="card">
+            <img src="https://uploads-ssl.webflow.com/6411205aa4059e3917a059f4/6440f748b2af2d3c8e5cf8b0_location-melbourne.webp" alt="">
+            <div class="card_text card1">
+                <h5>Melbourne</h5>
+                <p>Level 3, 697 Collins Street,</p>
+                <p>Docklands VIC 3008</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card_text card2">
+                <h5>Sydney</h5>
+                <p>Level 3, 60 Martin Place,</p>
+                <p>Sydney NSW 2000</p>
+            </div>
+            <img src="https://uploads-ssl.webflow.com/6411205aa4059e3917a059f4/6440f748ffaac1788a43b05e_location-sydney.webp" alt="" srcset="">
         </div>
     </div>
 </body>
